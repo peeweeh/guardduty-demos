@@ -6,5 +6,5 @@ filelines=`cat $filename`
 echo Start
 for ip in $filelines ; do
         sudo nmap -v -A $ip >> /var/log/nmap &
-        echo "sudo nmap -sX $ip >> /var/log/nmap &"
+        echo "sudo nmap -A $ip >> /var/log/nmap &"
 done
