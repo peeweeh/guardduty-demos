@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Running SSH Bruteforce"
+echo "---------- Running SSH Bruteforce ---------- "
 filename='/tools/ips.txt'
 filelines=`cat $filename`
 echo Start

@@ -1,6 +1,5 @@
 #!/bin/bash
 echo "Running Port Scans"
-sh ip-generator.sh
 filename='/tools/ips.txt'
 filelines=`cat $filename`
 echo Start
