@@ -11,8 +11,8 @@ sh ./bruteforce-ssh.sh >> /var/log/attackall &
 echo "Running NMAP"
 sh ./nmap.sh >> /var/log/attackall &
 
-echo "Running DNS Scan"
-sh ./dns.sh >> /var/log/attackall &
-
-echo "Running Bitcon Queries"
-sh ./bitcoin.sh >> /var/log/attackall &
+#echo "Running DNS Scan"
+#sh ./dns.sh >> /var/log/attackall &
+#
+#echo "Running Bitcon Queries"
+#sh ./bitcoin.sh >> /var/log/attackall &#

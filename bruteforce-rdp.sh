@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Running RDP Bruteforce"
 rm -rf hydra.restore
 filename='/tools/ips.txt'
 filelines=`cat $filename`
